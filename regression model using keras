@@ -15,3 +15,20 @@ print("Predictions:")
 print(predictions)
 
 
+Epoch 47/50
+13/13 ━━━━━━━━━━━━━━━━━━━━ 0s 634us/step - loss: 0.0803
+Epoch 48/50
+13/13 ━━━━━━━━━━━━━━━━━━━━ 0s 596us/step - loss: 0.0838
+Epoch 49/50
+13/13 ━━━━━━━━━━━━━━━━━━━━ 0s 557us/step - loss: 0.0750
+Epoch 50/50
+13/13 ━━━━━━━━━━━━━━━━━━━━ 0s 770us/step - loss: 0.0621
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step
+Predictions:
+[[1.6593739]
+ [2.0035965]
+ [2.3478193]]
+
+Process finished with exit code 0
+
+
