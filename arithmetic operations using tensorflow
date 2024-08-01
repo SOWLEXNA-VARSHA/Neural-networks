@@ -22,10 +22,19 @@ print(f"Element-wise Multiplication:\n{matrix_multiply.numpy()}")
 matrix_divide = tf.divide(matrix1, matrix2)
 print(f"Element-wise Division:\n{matrix_divide.numpy()}")
 
+
+a = tf.constant([1, 2, 3, 4])
+power = tf.pow(a, 3)  
+sqrt = tf.sqrt(tf.cast(a, tf.float32))  
+print(f"Power: {power.numpy()}")
+print(f"Square Root: {sqrt.numpy()}")
+
 Addition: 8
 Subtraction: 2
 Multiplication: 15
 Division: 1.6666666666666667
+
+
 Matrix Addition:
 [[ 6  8]
  [10 12]]
@@ -38,6 +47,10 @@ Element-wise Multiplication:
 Element-wise Division:
 [[0.2        0.33333333]
  [0.42857143 0.5       ]]
+
+Power: [ 1  8 27 64]
+Square Root: [1.        1.4142135 1.7320508 2.       ]
+
 
 Process finished with exit code 0
 
